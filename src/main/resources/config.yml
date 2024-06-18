@@ -1,0 +1,26 @@
+messages:
+  started: "&aYou have successfully started the loop."
+  alreadyStarted: '&cLoop is already started.'
+  notStarted: '&cLoop is not started.'
+  noPermission: "&cYou don't have permission to do that."
+  skipped: "&aYou have successfully skipped the loop."
+  stopped: "&aYou have successfully stopped the loop."
+  spawnCancelled: "&cSpawn of the boss cancelled because older boss still lives."
+  spawned: "&a%selected_boss% spawned"
+  reloaded: "&aSuccessfully reloaded the plugin."
+helpMessages:
+  - "&e/bswt start to start the loop"
+  - "&e/bswt stop to stop the loop"
+  - "&e/bswt skip to skip the loop 1 times"
+  - "&e/bswt reload to reload the config"
+broadcastMessages:
+  - "&a------------------------"
+  - "&a&lThe %selected_boss% &a&lwill be spawned in %hour% hours and %minute% minutes."
+  - "&a------------------------"
+world: "world"
+# In minutes
+period: 360
+mobs:
+  - "mob3"
+  - "Xenomorph"
+  - "AlienGolem"

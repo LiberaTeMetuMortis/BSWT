@@ -1,0 +1,27 @@
+name: BSWT
+version: '${project.version}'
+main: me.metumorits.bswt.BSWT
+api-version: 1.18
+depend:
+  - 'MythicMobs'
+commands:
+  bswt:
+    description: "Main command of the plugin"
+    usage: "/bswt <action>"
+    aliases:
+      - "boss"
+permissions:
+  bswt.start:
+    description: "Permission to start the loop"
+  bswt.stop:
+    description: "Permission to stop the loop"
+  bswt.skip:
+    description: "Permission to skip the loop"
+  bswt.reload:
+    description: "Permission to reload the config"
+  bswt.time:
+    description: "Permission to see the time"
+  bswt.location:
+    description: "Permission to see the location"
+  bswt.help:
+    description: "Permission to see the help"
